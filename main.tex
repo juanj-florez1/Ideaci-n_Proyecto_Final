@@ -63,65 +63,50 @@ A continuación veremos las ideas para el videojuego.
     
 \end{enumerate}
 
+\section{Imagenes de referencia} \label{imagenes}
+Todas las siguientes imagenes son referencias o inspiraciones para el desarrollo de nuestro juego. El juego no va a ser exactamente igual a las imagenes, solo las utilizamos para guiar nuestras ideas.
 
-\subsection{}
-Vamos a citar por ejemplo un artículo de \textbf{Albert Einstein} \cite{einstein}.
-También es posible citar libros \cite{dirac} o documentos en línea \cite{knuthwebsite}.\\\\
-Revisar en la última sección el formato de las referencias en IEEE.
+\newpage
 
-\subsection{Incluir código en el documento}
-%
-A continuación, se presenta el código \ref{codigo_ejemplo}, que nos permite incluir en el informe partes de programa que requieran una explicación adicional.
-\begin{lstlisting}[language=C++, label=codigo_ejemplo]
-// Programa desarrollado, compilado y ejecutado en https://www.onlinegdb.com
-#include <iostream>
-
-/*
- * Esto es un comentario de varias lineas
- */
-
-// Comentario de una sola linea
-
-#define N 10
-
-using namespace std;
-
-int main()
-{
-    
-    for( int i = 0 ; i < N ; i++ ){
-        
-        if( !(i % 2) )
-            cout << " El valor de i es -> " << i << endl;
-    }
-    
-    return 0;
-}
-
-//Resultado programa
-
-/*
-El valor de i es -> 0
-El valor de i es -> 2
-El valor de i es -> 4
-El valor de i es -> 6
-El valor de i es -> 8
-*/
-\end{lstlisting}
-En la sección \ref{imagenes}, se presentará como añadir ilustraciones al texto.
-
-\section{Inclusión de imágenes} \label{imagenes}
-
-En la Figura (\ref{fig:cpplogo}), se presenta el logo de C++ contenido en la carpeta images.
+En la Figura (\ref{fig:among}) \cite{amongus} , se muestra una referencia de como se podría desarrollar la interfaz del nivel 1.
 
 \begin{figure}[h]
-\includegraphics[width=4cm]{cpplogo.png}
+\includegraphics[width=10cm]{Among.jpg}
 \centering
-\caption{Logo de C++}
-\label{fig:cpplogo}
+\caption{Referencia para la interfaz del nivel 1}
+\label{fig:among}
 \end{figure}
 
-Las secciones (\ref{intro}), (\ref{contenido}) y (\ref{imagenes}) dependen del estilo del documento.
+En la Figura (\ref{fig:tareas}) \cite{tareas} , se muestra una referencia de la forma como se pueden implementar las posibles tareas o minijuegos del nivel 1.
+
+\begin{figure}[h]
+\includegraphics[width=10cm]{Tareas.jpg}
+\centering
+\caption{Referencia para las tareas que se desean agregar}
+\label{fig:tareas}
+\end{figure}
+
+\newpage
+
+En la Figura (\ref{fig:nivel2}) \cite{space} , se muestra una referencia de la forma como se puede implementar el nivel 2, donde se intenta llegar a salvo a la tierra.
+
+\begin{figure}[h]
+\includegraphics[width=3.3cm]{Nivel 2.jpg}
+\centering
+\caption{Referencia para la implementacion del nivel 2}
+\label{fig:nivel2}
+\end{figure}
+
+En la Figura (\ref{fig:nivel3}) \cite{invaders} , se referencia la forma en la que se puede desarrollar el Nivel 3, donde se desembolvera una batalla en el planeta tierra.
+
+\begin{figure}[h]
+\includegraphics[width=10cm]{NIvel 3.jpg}
+\centering
+\caption{Referencia para desarrollar el nivel 3}
+\label{fig:nivel3}
+\end{figure}
+
+\newpage
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
